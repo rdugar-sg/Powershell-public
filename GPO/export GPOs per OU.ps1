@@ -24,7 +24,7 @@ write-host $gpo.DisplayName
 $path='C:\scripts\' + $gpo.DisplayName + '.xml'
 write-host $path
 
-Get-GPOReport -Name $gpo.DisplayName -Domain "emea.corpdir.net" -Server $dc -ReportType XML -Path $path -Verbose
+Get-GPOReport -Name $gpo.DisplayName -Domain $domain -Server $dc -ReportType XML -Path $path -Verbose
 
 
 }
