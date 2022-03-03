@@ -1,0 +1,9 @@
+Get-CMTaskSequence  |foreach{
+
+write-host  $_.name
+Set-CMTaskSequence -TaskSequenceName $_.name -BootImageId BOOTIMAGEID}
+
+
+
+
+
