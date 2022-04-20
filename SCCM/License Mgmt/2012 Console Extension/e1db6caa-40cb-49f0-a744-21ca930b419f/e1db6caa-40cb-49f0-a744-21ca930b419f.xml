@@ -1,0 +1,27 @@
+<ActionDescription Class="Group" GroupAsRegion="true" SelectionMode="Both" DisplayName="Coretech" MnemonicDisplayName="Coretech" Description="Coretech">
+ <ShowOn>
+  <string>DefaultHomeTab</string> 
+  <string>ContextMenu</string> 
+  </ShowOn>
+ <ActionGroups>
+<ActionDescription Class="Executable" DisplayName="Edit 3rd Party Licenses" MnemonicDisplayName="Edit 3rd Party Licenses" Description="Edit 3rd Party Licenses" >
+	<ShowOn>
+		<string>ContextMenu</string> 
+		<string>DefaultHomeTab</string> 
+	</ShowOn>
+	<ImagesDescription>
+		<ResourceAssembly>
+			<Assembly>AdminUI.UIResources.dll</Assembly> 
+			<Type>Microsoft.ConfigurationManagement.AdminConsole.UIResources.Properties.Resources.resources</Type> 
+  		</ResourceAssembly>
+  		<ImageResourceName>Edit</ImageResourceName> 
+  	</ImagesDescription>
+	<Executable> 
+		<FilePath>C:\Program Files\Coretech\AILW\CT-AILW.exe</FilePath>
+		<Parameters>e1db6caa-40cb-49f0-a744-21ca930b419f</Parameters> 
+	</Executable>
+</ActionDescription>
+
+
+</ActionGroups>
+</ActionDescription>

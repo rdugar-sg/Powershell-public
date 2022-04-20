@@ -1,0 +1,5 @@
+<ActionDescription Class="Executable" DisplayName="Edit 3rd Party Licenses" MnemonicDisplayName="Edit 3rd Party Licenses" Description = "Edit 3rd Party Licenses">
+	<Executable> 
+		<FilePath>c:\Program Files\Coretech\AILW\CT-AILW.exe</FilePath>
+	</Executable>
+</ActionDescription>
