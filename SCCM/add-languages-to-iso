@@ -1,0 +1,33 @@
+
+
+
+# Make some Variables
+$ISO = "...\install-3-Windows-10-Enterprise.wim"
+$temp_ISO = "C:\temp\Add-Language-pack"
+$Scratch = "C:\temp\Add-Language-pack-Scratch"
+$languapackagpath="c:\language pack\."
+
+
+
+#What Index Name do you want to modify?
+Dism /Get-ImageInfo /ImageFile:$ISO
+
+$Index_NAme = "Windows 10 Enterprise"
+
+#Mount your ISO with that specific index and put it in a temporary folder.
+Dism /Mount-Image /ImageFile:$ISO /Name:$Index_NAme /MountDir:$temp_ISO
+
+#Time to add the language pack
+#Dism /Image:$temp_ISO /ScratchDir:$Scratch /Add-Package /PackagePath:$Language_files
+
+Dism /Image:$temp_ISO /ScratchDir:$Scratch /Add-Package /PackagePath:$languapackagpath
+
+
+
+#Do changes in the mounted Image
+#Dism /Commit-Image /MountDir:$temp_ISO
+
+#Unmounting the ISO file and saving it..
+dism /unmount-Wim /MountDir:$temp_ISO /commit
+
+#DONE!
