@@ -14,7 +14,7 @@
     Version history:
 	1.0
 
-#inspired by: https://call4cloud.nl/2020/04/wipe-your-device-script-without-intune/
+#inspired by Maurice Daly: https://call4cloud.nl/2020/04/wipe-your-device-script-without-intune/
 #>
 
 #1. Reset Device WMI PART
