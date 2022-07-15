@@ -6,7 +6,7 @@
  
 .NOTES
     FileName:    ImportAndWipeDevice_AutoPilot.ps1
-	   Author:      Philipp Schindler
+    Author:      Philipp Schindler
     Github:      https://github.com/Philinger1
     Created:     2022-07-15
    
