@@ -21,8 +21,8 @@
 #MDM WMI Bridge part
 
 
-#customize line 40 tenantname 
-#customize line 42 if you whish to copy the HWID somewhere
+#customize line 58 tenantname 
+#customize line 62 if you whish to copy the HWID somewhere
 
 
 
