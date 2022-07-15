@@ -1,3 +1,22 @@
+<#
+.SYNOPSIS
+    Enable Autopilot the automated way
+.DESCRIPTION
+	 Updloads a Device to Intune and generates a csv with the Hardware ID. And wipes the devie to start the Autopilot-process
+ 
+.NOTES
+    FileName:    ImportAndWipeDevice_AutoPilot.ps1
+	   Author:      Maurice Daly
+    Github:      https://github.com/Philinger1
+    Created:     2022-07-15
+   
+    
+    Version history:
+	1.0
+
+#inspired by: https://call4cloud.nl/2020/04/wipe-your-device-script-without-intune/
+#>
+
 #1. Reset Device WMI PART
 #MDM WMI Bridge part
 
