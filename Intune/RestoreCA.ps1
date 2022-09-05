@@ -1,6 +1,9 @@
 <#
 .SYNOPSIS
     Restore Conditional Access Policies from JSON files
+ .Required:
+    Install-Module -Name AzureAD -Force
+    
 .DESCRIPTION
     This script uses JSON files in a folder to create new Conditional Access Policies.
     The JSON files should be created with Get-AzureADMSConditionalAccessPolicy
