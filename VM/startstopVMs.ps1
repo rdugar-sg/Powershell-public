@@ -1,7 +1,7 @@
  Install-Module -Name Az -AllowClobber
  import-module -Name Az
 
-$Credential = Get-Credential -Credential "admin@M365x61941857.onmicrosoft.com"
+$Credential = Get-Credential -Credential "username@asdfasdf.de"
 Connect-AzAccount -Credential $Credential
 
 $VMFile = "C:\tools\azure VM\TempAzureVMs.txt"
