@@ -1,3 +1,6 @@
+ Install-Module -Name Az -AllowClobber
+ import-module -Name Az
+
 $Credential = Get-Credential -Credential "admin@M365x61941857.onmicrosoft.com"
 Connect-AzAccount -Credential $Credential
 
